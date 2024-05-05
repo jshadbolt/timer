@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: system-ui;
+}
+
+.timer-exceeded {
+    color: red;
+}
+
+.timer-finished{
+    color: yellow;
+}
+
+.display-container {
+    width: max-content;
+    font-size: 8rem;
+}
+
+.display {
+    border: 1px solid black;
+    padding: 1rem;
+}
